@@ -8,13 +8,13 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Login/>}/>
-        <Route path='/fruits' element={<Fruits/>}/>
-        <Route  path='/fruits/:id' element={<Detail/>}/>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Login/>}/>
+          <Route path='/fruits' element={<Fruits/>}/>
+          <Route  path='/fruits/:id' element={<Detail/>}/>
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
