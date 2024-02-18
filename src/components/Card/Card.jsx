@@ -9,12 +9,12 @@ const Card = ({
   picture,
   name,
   price,
-  id,
+  idFruit,
   loading
 }) => {
   return (
     <li>
-      <Link to={`/fruits/${id}`} className="group block overflow-hidden">
+      <Link to={`/fruits/${idFruit}/${name}`} className="group block overflow-hidden">
         {
           loading ? 
           <Skeleton height={350} width='100%'/>

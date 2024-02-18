@@ -1,17 +1,18 @@
 
-import { useSearchParams } from "react-router-dom";
+import { useSearchParams, Link } from "react-router-dom";
 import { useFetch } from "../../customHooks/useFetch";
 import Card from "../Card/Card";
-import image from '../../../public/logo.jpeg';
 import InputSearch from "../InputSearch/InputSearch";
+
+/* import {fruits} from "../../json/fruitsMock"; */
 
 const ContainerCards = () => {
   const [ searchParams ] = useSearchParams();
   const search = searchParams.get("q") ?? "";
-  const { data, error, loading} = useFetch("https://jsonplaceholder.typicode.com/todos");
+  const { data, error, loading} = useFetch("http://localhost:3000/fruits");
 
   if (error) {
-    return <p>Ooops... algo salió mal!!</p>;
+    return <p>Ooops... Not Found!! <Link className="text-[#EF8043]" to="/fruits">Reloade</Link></p>;
   }
   return (
     <section>
@@ -26,8 +27,8 @@ const ContainerCards = () => {
 
         <ul className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {
-            data?.filter(fruit => fruit.title.toLowerCase().includes(search.toLowerCase()))
-            .map(item => <Card key={item.id} name={item.title} price={item.userId} picture={image} id={item.id} loading={loading}/>)
+            data?.filter(fruit => fruit.name.toLowerCase().includes(search.toLowerCase()))
+            .map(item => <Card key={item.id} name={item.name} price={item.price} picture={item.image} idFruit={item.id} loading={loading}/>)
           }
         </ul>
       </div>
