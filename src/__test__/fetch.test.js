@@ -1,8 +1,7 @@
 /* eslint-disable no-undef */
 import "@testing-library/jest-dom"
-import { renderHook, render, screen } from '@testing-library/react';
+import { renderHook } from '@testing-library/react';
 import { useFetch } from "../customHooks/useFetch";
-import Detail from '../pages/Detail/Detail';
 
 describe("function fetch",()=>{
   it('url invalid', () => {
