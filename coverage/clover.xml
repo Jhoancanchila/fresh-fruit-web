@@ -1,15 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1708292854896" clover="3.2.0">
-  <project timestamp="1708292854897" name="All files">
-    <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1" elements="10" coveredelements="3" complexity="0" loc="6" ncloc="6" packages="1" files="1" classes="1"/>
-    <file name="InputSearch.jsx" path="/Users/akelab/Documents/fresh-fruit-web/src/components/InputSearch/InputSearch.jsx">
-      <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="1"/>
-      <line num="4" count="1" type="stmt"/>
-      <line num="5" count="5" type="stmt"/>
-      <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="7" count="0" type="stmt"/>
-      <line num="8" count="0" type="stmt"/>
-      <line num="11" count="0" type="stmt"/>
-    </file>
+<coverage generated="1708356569291" clover="3.2.0">
+  <project timestamp="1708356569291" name="All files">
+    <metrics statements="57" coveredstatements="0" conditionals="38" coveredconditionals="0" methods="20" coveredmethods="0" elements="115" coveredelements="0" complexity="0" loc="57" ncloc="57" packages="10" files="11" classes="11"/>
+    <package name="src">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="App.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/App.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="main.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/main.jsx">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Card">
+      <metrics statements="2" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Card.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/components/Card/Card.jsx">
+        <metrics statements="2" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.ContainerCards">
+      <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="ContainerCards.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/components/ContainerCards/ContainerCards.jsx">
+        <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Input">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Input.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/components/Input/Input.jsx">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.InputSearch">
+      <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="InputSearch.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/components/InputSearch/InputSearch.jsx">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.Navbar">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Navbar.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/components/Navbar/Navbar.jsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.customHooks">
+      <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="useFetch.js" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/customHooks/useFetch.js">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Detail">
+      <metrics statements="4" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Detail.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/pages/Detail/Detail.jsx">
+        <metrics statements="4" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Fruits">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Fruits.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/pages/Fruits/Fruits.jsx">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.pages.Login">
+      <metrics statements="17" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Login.jsx" path="/Users/jhoancanchila/Documents/fresh-fruit-web/src/pages/Login/Login.jsx">
+        <metrics statements="17" coveredstatements="0" conditionals="20" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
