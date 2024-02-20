@@ -16,7 +16,7 @@
       "category": "Fruit",
       "description": "A long and curved fruit.",
       "id": "2",
-      "car": 0
+      "car": 1
     },
     {
       "name": "Orange",
@@ -34,7 +34,7 @@
       "category": "Fruit",
       "description": "Small and sweet fruits that grow in bunches.",
       "id": "4",
-      "car": 0
+      "car": 1
     },
     {
       "name": "Watermelon",
