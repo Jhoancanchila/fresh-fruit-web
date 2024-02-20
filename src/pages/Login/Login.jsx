@@ -50,7 +50,7 @@ const Login = () => {
       <div className=' w-11/12 max-w-[500px] sm:px-10 py-20 px-5 py-10'>
         <h4 className='text-5xl font-normal'>Welcome to fresh fruit</h4>
         <div className='mt-8'>
-          <Input value={credentials} setValue={setCredentials} textLabel="Email" textPlaceHolder="Enter your email"/>
+          <Input value={credentials} setValue={setCredentials} textLabel="Email" textPlaceHolder="Enter your email" />
           <Input value={credentials} setValue={setCredentials} textLabel="Password" textPlaceHolder="Enter your Password"/>
           <div className='mt-8 flex justify-between items-center'>
             <button className='font-medium text-base text-[#EF8043]'>Forgot password</button>
