@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import Skeleton from 'react-loading-skeleton'
-import 'react-loading-skeleton/dist/skeleton.css'
 
+import 'react-loading-skeleton/dist/skeleton.css'
+import { useContext } from "react";
+import { CarContext } from "../../App";
+import { handleUpdateDataFruits } from "../../helpers";
 
 /* eslint-disable react/prop-types */
 
@@ -10,22 +13,14 @@ const Card = ({
   name,
   price,
   idFruit,
+  quantityCar,
   loading,
-  fruitsData
 }) => {
 
-  const handleCar = (id) => {
-    const newDataFruits = fruitsData.map(fruit=>{
-      if(fruit.id === id){
-        return{
-          ...fruit,
-          car: fruit.car ? 0 : 1
-        }
-      }else{
-        return fruit
-      }
-    })
-  };
+const contexCar = useContext(CarContext);
+
+const { productCar, setProductCar } = contexCar;
+const quantityForItem = quantityCar === 1 ? 0 : 1;
 
   return (
     <li>
@@ -55,7 +50,7 @@ const Card = ({
               <span className="tracking-wider text-gray-900"> {loading ? <Skeleton/> : price} </span>
             </p>
           </div>
-          <button onClick={()=>handleCar(idFruit)} className="py-3 px-2 bg-[#EF8043] outline-none rounded">Add to cart</button>
+          <button onClick={()=>handleUpdateDataFruits(idFruit,productCar,quantityForItem,setProductCar)} className="py-3 px-2 bg-[#EF8043] outline-none rounded">{quantityCar === 0 ? 'Add to cart' : 'Remove car'}</button>
         </div>
       </div>
     </li>
