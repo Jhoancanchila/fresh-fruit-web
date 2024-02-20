@@ -1,5 +1,7 @@
 # React + Vite + tailwind css
 
+# Sistema para administrar venta de frutas online para un único usuario.
+
 1. git clone 
 2. npm install
 3. npm run dev
